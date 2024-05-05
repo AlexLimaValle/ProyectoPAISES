@@ -1,0 +1,12 @@
+<h2>Por region</h2>
+<hr>
+<div class="row">
+    <div class="col">
+        <shared-search-box (onValue)="recibir($event)" placeholder="Este es un nuevo placeholder"></shared-search-box>
+    </div>
+    <div class="row">
+        <div class="col">
+            <countries-table [countries]="countries"></countries-table>
+        </div>
+    </div>
+</div>
